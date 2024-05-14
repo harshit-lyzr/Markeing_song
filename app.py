@@ -78,7 +78,7 @@ def lyrics_writer(name, description, idea, language):
 
 
 name = st.text_input("Brand Name", placeholder="Samsung")
-description = st.text_input("Specific API Operation", placeholder="We are selling Phones which is best in the world")
+description = st.text_input("Description", placeholder="We are selling Phones which is best in the world")
 idea = st.text_input("Idea for Song")
 language = st.text_input("Language", placeholder="Italian")
 
